@@ -1,0 +1,386 @@
+/* animation styles */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in-class {
+  animation-name: fadeIn;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+/* mobiles (landscape and portrait) */
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+
+  #laptopNav {
+    display: none;
+  }
+
+  .home-container {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .home-page-one,
+  .home-page-two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .home-image-one,
+  .home-image-two {
+    display: block;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .home-link-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 43px 10px rgba(0, 0, 0, .35);
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+    right: 5vw;
+  }
+
+  .home-link-left-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .font-logo-image {
+    height: 40px;
+  }
+
+  .font-logo-text {
+    padding-left: 32px;
+  }
+
+  .home-page-content {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    right: 20%;
+  }
+
+  .home-page-sub-content {
+    padding-top: 16px;;
+  }
+
+  .home-why-us-container {
+    margin-top: -32px;
+  }
+
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-width: 550px) and (max-width: 800px) {
+
+  #laptopNav {
+    display: none;
+  }
+
+  .home-container {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .home-page-one,
+  .home-page-two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .home-image-one,
+  .home-image-two {
+    display: block;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .home-link-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 43px 10px rgba(0, 0, 0, .35);
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+    right: 5vw;
+  }
+
+  .home-link-left-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .font-logo-image {
+    height: 40px;
+  }
+
+  .font-logo-text {
+    padding-left: 32px;
+  }
+
+  .home-page-content {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    right: 20%;
+  }
+
+  .home-page-sub-content {
+    padding-top: 16px;;
+  }
+
+  .home-why-us-container {
+    margin-top: -32px;
+  }
+
+}
+
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 850px) and (max-width: 1024px) {
+
+  .home-container {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .home-page-one,
+  .home-page-two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .home-image-one,
+  .home-image-two {
+    display: block;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .home-page-button-container {
+    background: #b80924;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 4px;
+    padding: 4px 8px;
+    color: #fff;
+    margin-left: 32px;
+    position: absolute;
+    top: -7vh;
+    right: 0;
+  }
+
+  .home-link-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 43px 10px rgba(0, 0, 0, .35);
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+    right: 5vw;
+  }
+
+  .home-link-left-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .font-logo-image {
+    height: 60px;
+  }
+
+  .font-logo-text {
+    padding-left: 32px;
+  }
+
+  .home-link-right-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-link-right-container div a {
+    padding-right: 16px;
+    font-size: 1.25em;
+    letter-spacing: 1.75px;
+  }
+
+  .home-page-content {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    right: 20%;
+  }
+
+  .home-why-us-container {
+    margin-top: -32px;
+  }
+
+}
+
+
+/* bigger laptops */
+
+@media only screen and (min-width: 1224px) {
+
+  .home-container {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .home-page-one,
+  .home-page-two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .home-image-one,
+  .home-image-two {
+    display: block;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .home-page-button-container {
+    background: #b80924;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 4px;
+    padding: 4px 8px;
+    color: #fff;
+    margin-left: 32px;
+  }
+
+  .home-link-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 43px 10px rgba(0, 0, 0, .35);
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+    right: 5vw;
+  }
+
+  .home-link-left-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .font-logo-image {
+    height: 60px;
+  }
+
+  .font-logo-text {
+    padding-left: 32px;
+  }
+
+  .home-link-right-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-link-right-container div a {
+    padding-right: 16px;
+    font-size: 1.25em;
+    letter-spacing: 1.75px;
+  }
+
+  .home-page-content {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    right: 20%;
+  }
+
+  .home-why-us-container {
+    margin-top: -32px;
+  }
+
+}

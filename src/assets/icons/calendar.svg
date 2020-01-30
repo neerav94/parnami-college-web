@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 100 125" x="0px" y="0px">
+  <title>Artboard 6</title>
+  <path style="fill:#fff"
+    d="M82,10H78V6a4,4,0,0,0-8,0v4H54V6a4,4,0,0,0-8,0v4H30V6a4,4,0,0,0-8,0v4H18A16,16,0,0,0,2,26V82A16,16,0,0,0,18,98H82A16,16,0,0,0,98,82V26A16,16,0,0,0,82,10ZM18,18h4v4a4,4,0,0,0,8,0V18H46v4a4,4,0,0,0,8,0V18H70v4a4,4,0,0,0,8,0V18h4a8,8,0,0,1,8,8v8H10V26A8,8,0,0,1,18,18ZM82,90H18a8,8,0,0,1-8-8V42H90V82A8,8,0,0,1,82,90Z" />
+  <circle style="fill:#fff" cx="26" cy="58" r="4" />
+  <circle style="fill:#fff" cx="26" cy="74" r="4" />
+  <circle style="fill:#fff" cx="42" cy="58" r="4" />
+  <circle style="fill:#fff" cx="42" cy="74" r="4" />
+  <circle style="fill:#fff" cx="58" cy="58" r="4" />
+  <circle style="fill:#fff" cx="58" cy="74" r="4" />
+  <circle style="fill:#fff" cx="74" cy="58" r="4" />
+  <circle style="fill:#fff" cx="74" cy="74" r="4" />
+</svg>
